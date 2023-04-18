@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,V as l}from"./chunks/framework.35f2bc26.js";const A=JSON.parse('{"title":"Anu Installation","description":"","frontmatter":{},"headers":[],"relativePath":"config/anu.md"}'),p={name:"config/anu.md"},o=l("",18),e=[o];function t(c,r,D,y,i,F){return a(),n("div",null,e)}const u=s(p,[["render",t]]);export{A as __pageData,u as default};
