@@ -1,0 +1,23 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+
+*.local
+.idea
+yarn.lock
+package-lock.json
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# vitepress
+docs/.vitepress/cache
+docs/.vitepress/dist
+.vitepress/cache
+
+# rollup-plugin-visualizer
+stats.html
