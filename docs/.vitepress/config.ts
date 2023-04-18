@@ -1,5 +1,6 @@
 import Unocss from 'unocss/vite'
 import { defineConfig } from 'vitepress'
+import { visualizer } from 'rollup-plugin-visualizer'
 
 export default defineConfig({
   base: '/vitepress-unocss-starter/',
@@ -19,10 +20,10 @@ export default defineConfig({
       copyright: 'Copyright © 2023 infinite-creatioin',
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/infinite-creation/vue3-unocss-component-starter' },
+      { icon: 'github', link: 'https://github.com/infinite-creation/vitepress-unocss-starter' },
     ],
     editLink: {
-      pattern: 'https://github.com/infinite-creation/vue3-unocss-component-starter/edit/main/docs/:path',
+      pattern: 'https://github.com/infinite-creation/vitepress-unocss-starter/edit/main/docs/:path',
       text: 'Edit this page on GitHub',
     },
     nav: nav(),
@@ -34,13 +35,21 @@ export default defineConfig({
       title: 'My Blog',
       description: 'Some articles for sample Blog',
     },
-  },
+  } as any,
   vite: {
     plugins: [
       Unocss(),
+      visualizer({
+        open: true,
+        gzipSize: true,
+        brotliSize: true,
+      }),
     ],
   },
-} as any)
+  head: [
+    ['link', { rel: 'icon', href: 'favicon.svg' }],
+  ],
+})
 
 function nav() {
   return [
