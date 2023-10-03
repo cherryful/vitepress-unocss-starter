@@ -14,7 +14,7 @@ Static websites are now used to bootstrap lots of websites and are becoming the 
 
 ## Obstrepuere tanto defenderet acta corpore cum lacum
 
-Lorem markdownum, non quamvis bobus Troia: ventos dedisses sparsas veris,
+Hervé Lorem markdownum, non quamvis bobus Troia: ventos dedisses sparsas veris,
 inmissusque [potiora](https://github.com/sfxcode/vitepress-blog-starter), nitentia. Et aeolis
 crematisregia umbrae sonabunt pars, te molibus
 [alterius](https://github.com/sfxcode/vitepress-blog-starter), Athin statione: pabula Argus vino
